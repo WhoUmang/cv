@@ -1,127 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Umang's Personal Site</title>
-  <style>
-    body{
-      background-color: rgb(170, 230, 230);
-    }
-
-    hr{
-      border-color: rgb(19, 21, 133);
-      border-style: none none dotted none;
-      width: 5%;
-      border-width: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-  <table>
-    <tr>
-      <td><img src="https://qph.cf2.quoracdn.net/main-thumb-143866910-200-oelhramuawxbgzphwdpdohocjucaxvjs.jpeg"
-          alt="Umang's Profile" /></td>
-      <td>
-        <h1>Umang Pathak</h1>
-        <p><em>Web Designer and Developer</em></p>
-
-        <p>
-          I am a web Designer enthusiast and a web Developer </p>
-        <p>
-          Visit my <a href="https://www.astrorashifal.com"> website</a>
-        </p>
-      </td>
-    </tr>
-  </table>
-
-  <hr />
-
-  <h3>Education</h3>
-  <ul>
-    <li>BCA 2022</li>
-    <li>HSC 2017</li>
-    <li>SSC 2015</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <tr>
-      <td>
-        <table border="1">
-          <tr>
-            <th>Work</th>
-          <tr>
-            <td><b>01/2019 - 04/2019</b> PHP Developer at BAGIC (IT Department) 
-              <ul>
-                
-                <li>Customizing the themes based on special days and
-                calendar events on the general insurance page and
-                different theme for vehicle insurance page.</li>
-                <li>Customized the chat screen for the customer in
-                international chat process for queries and help section
-                using PHP</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td><b>05/2021 - Present</b> Front-End Developer at Ojas Softech Pvt. Ltd.
-              <ul>
-                <li>Designing banners for advertisements shown on the
-                webpages and banners for Instagram posts.</li>
-                <li>Customized the ads and slideshow as per the
-                requirement and also enabling the slide show panel to
-                project different images when loaded in different
-                platform using HTML and CSS.</li>
-                <li>Designed pages in 7 different regional languages using
-                the content provided by the team.</li>
-                <li>Embedding jpg files in the slide show for better
-                relevance to the subject of the webpages post
-                publishing.</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Photography</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Content Writing</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Data Entry</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a><br>
-  <a href="contact.html">Contact Me</a>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Your tagline or a short introduction goes here.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write about yourself here...</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
